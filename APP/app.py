@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # -------------------------------
 
 
-df = pd.read_csv("data/cleaned_data.csv")
+df = pd.read_csv("DATA/cleaned_data.csv")
 
 # Clean column names
 df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
